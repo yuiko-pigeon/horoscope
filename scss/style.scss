@@ -1,0 +1,10 @@
+//layout
+@use "layout/wrapper";
+@use "layout/footer";
+@use "layout/header";
+@use "layout/main";
+
+//object
+@use "object/project/p-article";
+@use "object/project/p-title";
+@use "object/project/p-section";

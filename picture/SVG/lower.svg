@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 520 5.93">
+  <defs>
+    <style>
+      .cls-1 {
+        mask: url(#mask);
+      }
+
+      .cls-2 {
+        filter: url(#luminosity-noclip);
+      }
+
+      .cls-3 {
+        filter: url(#luminosity-noclip-3);
+      }
+
+      .cls-4 {
+        mask: url(#mask-2);
+      }
+
+      .cls-5 {
+        mask: url(#mask-3);
+      }
+
+      .cls-6 {
+        mask: url(#mask-1);
+      }
+
+      .cls-7 {
+        fill: url(#_名称未設定グラデーション_887-2);
+      }
+
+      .cls-7, .cls-8 {
+        mix-blend-mode: multiply;
+      }
+
+      .cls-8 {
+        fill: url(#_名称未設定グラデーション_887);
+      }
+
+      .cls-9 {
+        fill: #bb8f4b;
+      }
+    </style>
+    <filter id="luminosity-noclip" x="0" y="0" width="520" height="1" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip-2" x="0" y="-7796.6" width="520" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-1" x="0" y="-7796.6" width="520" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_名称未設定グラデーション_887" data-name="名称未設定グラデーション 887" x1="0" y1="1270.59" x2="520" y2="1270.59" gradientTransform="translate(0 -1270.09)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000"/>
+      <stop offset=".28" stop-color="#fff"/>
+      <stop offset=".34" stop-color="#fff"/>
+      <stop offset=".35" stop-color="#fff"/>
+      <stop offset=".41" stop-color="#fff"/>
+      <stop offset=".46" stop-color="#fff"/>
+      <stop offset=".55" stop-color="#fff"/>
+      <stop offset=".63" stop-color="#fff"/>
+      <stop offset=".72" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <mask id="mask" x="0" y="0" width="520" height="1" maskUnits="userSpaceOnUse">
+      <g class="cls-2">
+        <g class="cls-6">
+          <rect class="cls-8" width="520" height="1" transform="translate(520 1) rotate(180)"/>
+        </g>
+      </g>
+    </mask>
+    <filter id="luminosity-noclip-3" x="0" y="2.93" width="520" height="3" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip-4" x="0" y="-7796.6" width="520" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-3" x="0" y="-7796.6" width="520" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="_名称未設定グラデーション_887-2" data-name="名称未設定グラデーション 887" y1="1266.65" y2="1266.65" gradientTransform="translate(0 -1262.22)" xlink:href="#_名称未設定グラデーション_887"/>
+    <mask id="mask-2" x="0" y="2.93" width="520" height="3" maskUnits="userSpaceOnUse">
+      <g class="cls-3">
+        <g class="cls-5">
+          <rect class="cls-7" y="2.93" width="520" height="3" transform="translate(520 8.87) rotate(180)"/>
+        </g>
+      </g>
+    </mask>
+  </defs>
+  <g id="_鑑定方法" data-name="鑑定方法">
+    <g id="_レイヤー_5" data-name="レイヤー 5">
+      <g>
+        <g class="cls-1">
+          <rect class="cls-9" width="520" height="1" transform="translate(520 1) rotate(180)"/>
+        </g>
+        <g class="cls-4">
+          <rect class="cls-9" y="2.93" width="520" height="3" transform="translate(520 8.87) rotate(180)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
