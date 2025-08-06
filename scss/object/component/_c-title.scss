@@ -1,0 +1,25 @@
+@use "../../foundation/global/index" as g;
+
+.c-title{
+    &__img--upper{
+    
+    }
+    &__text{
+        display: block;
+        font-family: 'Noto Serif JP', serif;
+        font-size: 2.25rem;
+        font-weight: 700;
+        color: g.$color-gold;
+        margin: 0 auto;
+        text-align: center;
+    }
+    &__text--small{
+        font-family: 'Noto Serif JP', serif;
+        font-size: 1.25rem;
+        font-weight: 700;
+        line-height: 2rem;
+        color: #0e213d;
+        width: 100%; /* 明示的にwidthを指定 */
+    }
+
+}

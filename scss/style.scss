@@ -4,7 +4,13 @@
 @use "layout/header";
 @use "layout/main";
 
+//component
+@use "object/component/c-title";
+
 //object
 @use "object/project/p-article";
 @use "object/project/p-title";
 @use "object/project/p-section";
+
+@use "object/utility/u-padding";
+@use "object/utility/u-width";
