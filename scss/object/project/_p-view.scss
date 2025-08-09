@@ -1,0 +1,88 @@
+@use "../../foundation/global/index" as g;
+
+.p-view{
+    &__default{
+        position: relative; // 擬似要素を重ねるため
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50%; // フェード部分の高さ
+            background: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 1) 100%
+            );
+            pointer-events: none; // クリックを邪魔しない
+          }
+    }
+    &__hidden{
+        display: none;
+    }
+    &__button{
+        &::before{
+            content: "...もっと見る";
+            font-family: g.$fontNSansCJK;
+            font-weight: 100;
+            position: absolute;
+            bottom: -8.35vw;
+            right: 3vw;
+            font-size: 3.28vw;
+            line-height: 5.33vw;
+        }
+        &:hover::before {
+            text-decoration: underline solid g.$color-white;
+            text-decoration-thickness: 0.16vw;
+        }
+    }
+}
+
+input[type="checkbox"]#progress,
+input[type="checkbox"]#natal,
+input[type="checkbox"]#errectional,
+input[type="checkbox"]#nature,
+input[type="checkbox"]#love,
+input[type="checkbox"]#sample1,
+input[type="checkbox"]#sample2,
+input[type="checkbox"]#sample3,
+input[type="checkbox"]#synastry{
+    display: none;
+}
+input[type="checkbox"]#progress:checked ~ .p-view__hidden,
+input[type="checkbox"]#synastry:checked ~ .p-view__hidden,
+input[type="checkbox"]#errectional:checked ~ .p-view__hidden,
+input[type="checkbox"]#nature:checked ~ .p-view__hidden,
+input[type="checkbox"]#love:checked ~ .p-view__hidden,
+input[type="checkbox"]#sample1:checked ~ .p-view__hidden,
+input[type="checkbox"]#sample2:checked ~ .p-view__hidden,
+input[type="checkbox"]#sample3:checked ~ .p-view__hidden,
+input[type="checkbox"]#natal:checked ~ .p-view__hidden{
+    display: block;
+}
+input[type="checkbox"]#progress:checked ~ .p-view__button::before,
+input[type="checkbox"]#synastry:checked ~ .p-view__button::before,
+input[type="checkbox"]#errectional:checked ~ .p-view__button::before,
+input[type="checkbox"]#nature:checked ~ .p-view__button::before,
+input[type="checkbox"]#love:checked ~ .p-view__button::before,
+input[type="checkbox"]#sample1:checked ~ .p-view__button::before,
+input[type="checkbox"]#sample2:checked ~ .p-view__button::before,
+input[type="checkbox"]#sample3:checked ~ .p-view__button::before,
+input[type="checkbox"]#natal:checked ~ .p-view__button::before{
+    content: "閉じる";
+    position: absolute;
+    bottom: -9.33vw;
+    right: 3vw;
+}
+input[type="checkbox"]#progress:checked ~ .p-view__default::after,
+input[type="checkbox"]#synastry:checked ~ .p-view__default::after,
+input[type="checkbox"]#errectional:checked ~ .p-view__default::after,
+input[type="checkbox"]#nature:checked ~ .p-view__default::after,
+input[type="checkbox"]#love:checked ~ .p-view__default::after,
+input[type="checkbox"]#sample1:checked ~ .p-view__default::after,
+input[type="checkbox"]#sample2:checked ~ .p-view__default::after,
+input[type="checkbox"]#sample3:checked ~ .p-view__default::after,
+input[type="checkbox"]#natal:checked ~ .p-view__default::after{
+    content: none;
+}

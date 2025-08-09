@@ -6,11 +6,23 @@
 
 //component
 @use "object/component/c-title";
+@use "object/component/c-table";
+@use "object/component/c-image";
+@use "object/component/c-button";
+@use "object/component/c-text";
+@use "object/component/c-footer";
 
 //object
 @use "object/project/p-article";
 @use "object/project/p-title";
 @use "object/project/p-section";
+@use "object/project/p-table";
+@use "object/project/p-text";
+@use "object/project/p-button";
+@use "object/project/p-view";
 
 @use "object/utility/u-padding";
 @use "object/utility/u-width";
+@use "object/utility/u-text";
+@use "object/utility/u-center";
+@use "object/utility/u-margin";

@@ -1,9 +1,13 @@
+@use "../../foundation/global/index" as g;
+
 .u-padding{
     &__title-small{
-        padding:0 1.18rem
+        padding:0 3.13vw
     }
     &__title--xsmall{
         padding: 0 0.87rem;
     }
-
+    &__text--left{
+        padding-left: 1.33vw;
+    }
 }

@@ -1,6 +1,22 @@
+@charset "UTF-8";
+/*light*/
+/*Medium*/
+/*Bold*/
+/*Heavy*/
+@font-face {
+  font-family: "noto-sans-cjk-jp"; /* 任意のフォント名 */
+  src: url("../../../font/NotoSansCJKjp-VF.otf") format("truetype"); /* フォントファイルのパス */
+}
+@font-face {
+  font-family: "noto-serif-cjk-jp"; /* 任意のフォント名 */
+  src: url("../../../font/NotoSerifCJKJP-VF.otf") format("truetype"); /* フォントファイルのパス */
+}
 .l-wrapper {
-  grid-template-rows: 1fr, 1fr, 274px;
+  display: grid;
+  grid-template-rows: auto 1fr 274px;
   background: #000;
+  justify-items: center;
+  color: #FFFFFF;
 }
 
 .l-footer {
@@ -11,6 +27,10 @@
   grid-row: 1;
 }
 
+html {
+  line-height: 0;
+}
+
 .l-main {
   grid-row: 2;
 }
@@ -18,7 +38,8 @@
 .c-title__text {
   display: block;
   font-family: "Noto Serif JP", serif;
-  font-size: 2.25rem;
+  font-size: 6vw;
+  line-height: 10.48vw;
   font-weight: 700;
   color: #eec97b;
   margin: 0 auto;
@@ -26,45 +47,357 @@
 }
 .c-title__text--small {
   font-family: "Noto Serif JP", serif;
-  font-size: 1.25rem;
+  font-size: 3.33vw;
   font-weight: 700;
-  line-height: 2rem;
+  line-height: 5.33vw;
   color: #0e213d;
+}
+.c-title__text--medium {
+  font-family: "Noto Serif JP", serif;
+  font-size: 4.33vw;
+  font-weight: 700;
+  line-height: 7.57vw;
+  color: #eec97b;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.c-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 5.33vw auto 14.5vw auto;
+  overflow: hidden;
+}
+.c-table__row {
+  border: 1px solid #eec97b;
+  height: 8.33vw;
+}
+.c-table__row:last-child {
+  border-bottom: none;
+}
+.c-table__header {
+  border: 1px solid #eec97b;
+  color: #FFFFFF;
+  font-family: source-han-serif-jp-variable, sans-serif;
+  font-variation-settings: "wght" 700;
+  font-size: 3.67vw;
+  padding: 0 4vw;
+  text-align: right;
+  width: 37%;
+  vertical-align: top;
+}
+.c-table__header:empty {
+  background: transparent;
+}
+.c-table__background--gold {
+  background: #c0935e;
+}
+.c-table__data {
+  border: 1px solid #eec97b;
+  color: #FFFFFF;
+  font-family: noto-sans-cjk-jp, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 3.5vw;
+  padding: 0 4vw;
+  text-align: left;
+  width: 63%;
+  vertical-align: middle;
+}
+
+.c-image__fv {
+  width: 100vw;
+  margin: 0 auto;
+}
+.c-image__fv > img {
+  width: 100%;
+}
+
+.c-button__img--flame {
+  position: relative;
+}
+.c-button__img--red {
+  position: absolute;
+}
+.c-button__img--yellow {
+  position: absolute;
+}
+.c-button__img--light {
+  position: absolute;
+}
+.c-button__text {
+  width: 100%;
+  font-family: "source-han-serif-jp-variable", sans-serif;
+  color: #FFFFFF;
+  position: absolute;
+  top: 3vw;
+  text-align: center;
+  font-weight: 700;
+}
+.c-button__link {
+  font-size: 3vw;
+  line-height: 3.29vw;
+}
+.c-button__link :hover {
+  cursor: pointer;
+}
+
+.c-text__main {
+  color: #ffe8b8;
+  font-size: 3.33vw;
+  font-family: "noto-sans-cjk-jp", Noto Sans JP, sans-serif;
+  font-weight: 100;
+  line-height: 5.83vw;
+  text-align: center;
+  display: block;
+  margin-top: 9.33vw;
+  margin-bottom: 6.66vw;
+}
+.c-text__sub {
+  color: #ffe8b8;
+  font-size: 3.67vw;
+  font-family: "source-han-serif-jp-variable", sans-serif;
+  line-height: 6.4vw;
+  letter-spacing: 0.266vw;
+  display: block;
+  text-align: center;
+  margin-bottom: 10.83vw;
+}
+.c-text__center {
+  display: block;
+  color: #FFFFFF;
+  font-family: "noto-sans-cjk-jp", Noto Sans JP, sans-serif;
+  font-weight: 100;
+  font-size: 3.28vw;
+  line-height: 5.33vw;
+  height: auto;
+}
+
+.c-footer__text {
+  display: block;
+  color: #fff;
+  line-height: 2.5vw;
+  font-size: 2.33vw;
+  font-family: "noto-sans-cjk-jp", Noto Sans JP, sans-serif;
+  font-weight: 100;
+  margin-top: 3.5vw;
+  margin-bottom: 3.83vw;
 }
 
 .p-title__button--round {
   display: flex;
   background: rgba(255, 255, 255, 0.7);
-  border-radius: 1.5625rem;
+  border-radius: 4.1vw;
   border: 1px solid #eec97b;
-  width: 450px;
-  height: 3.125rem;
+  width: 75vw;
+  height: 8.334vw;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5vw;
 }
 .p-title__button--round-long {
   display: flex;
   background: rgba(255, 255, 255, 0.7);
-  border-radius: 1.5625rem;
+  border-radius: 4.1vw;
   border: 1px solid #eec97b;
-  width: 550px;
-  height: 3.125rem;
+  width: 91.66vw;
+  height: 8.334vw;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5vw;
+  padding-left: 1.33vw;
+}
+
+.p-section__how {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.p-section__child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.p-table {
+  line-height: 8.33vw;
+  max-width: 86.7vw;
+  background-color: #000;
+  margin: 0 auto;
+}
+
+.p-text__main {
+  color: #ffe8b8;
+  font-size: 3.33vw;
+  font-family: "noto-sans-cjk-jp", Noto Sans JP, sans-serif;
+  font-weight: 100;
+  line-height: 5.83vw;
+  text-align: center;
+  display: block;
+  margin-top: 9.33vw;
+  margin-bottom: 6.66vw;
+}
+.p-text__sub {
+  color: #ffe8b8;
+  font-size: 3.67vw;
+  font-family: "source-han-serif-jp-variable", sans-serif;
+  line-height: 6.4vw;
+  letter-spacing: 0.266vw;
+  display: block;
+  text-align: center;
+  margin-bottom: 10.83vw;
+}
+
+.p-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.p-button__registor {
+  position: relative;
+  display: block;
+  width: 50vw;
+  height: 10vw;
+}
+.p-button__login {
+  position: relative;
+  display: block;
+  width: 50vw;
+  height: 10vw;
+}
+.p-button > li {
+  list-style: none;
+}
+
+.p-view__default {
+  position: relative;
+}
+.p-view__default::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+  pointer-events: none;
+}
+.p-view__hidden {
+  display: none;
+}
+.p-view__button::before {
+  content: "...もっと見る";
+  font-family: "noto-sans-cjk-jp", Noto Sans JP, sans-serif;
+  font-weight: 100;
+  position: absolute;
+  bottom: -8.35vw;
+  right: 3vw;
+  font-size: 3.28vw;
+  line-height: 5.33vw;
+}
+.p-view__button:hover::before {
+  -webkit-text-decoration: underline solid #FFFFFF;
+          text-decoration: underline solid #FFFFFF;
+  text-decoration-thickness: 0.16vw;
+}
+
+input[type=checkbox]#progress,
+input[type=checkbox]#natal,
+input[type=checkbox]#errectional,
+input[type=checkbox]#nature,
+input[type=checkbox]#love,
+input[type=checkbox]#sample1,
+input[type=checkbox]#sample2,
+input[type=checkbox]#sample3,
+input[type=checkbox]#synastry {
+  display: none;
+}
+
+input[type=checkbox]#progress:checked ~ .p-view__hidden,
+input[type=checkbox]#synastry:checked ~ .p-view__hidden,
+input[type=checkbox]#errectional:checked ~ .p-view__hidden,
+input[type=checkbox]#nature:checked ~ .p-view__hidden,
+input[type=checkbox]#love:checked ~ .p-view__hidden,
+input[type=checkbox]#sample1:checked ~ .p-view__hidden,
+input[type=checkbox]#sample2:checked ~ .p-view__hidden,
+input[type=checkbox]#sample3:checked ~ .p-view__hidden,
+input[type=checkbox]#natal:checked ~ .p-view__hidden {
+  display: block;
+}
+
+input[type=checkbox]#progress:checked ~ .p-view__button::before,
+input[type=checkbox]#synastry:checked ~ .p-view__button::before,
+input[type=checkbox]#errectional:checked ~ .p-view__button::before,
+input[type=checkbox]#nature:checked ~ .p-view__button::before,
+input[type=checkbox]#love:checked ~ .p-view__button::before,
+input[type=checkbox]#sample1:checked ~ .p-view__button::before,
+input[type=checkbox]#sample2:checked ~ .p-view__button::before,
+input[type=checkbox]#sample3:checked ~ .p-view__button::before,
+input[type=checkbox]#natal:checked ~ .p-view__button::before {
+  content: "閉じる";
+  position: absolute;
+  bottom: -9.33vw;
+  right: 3vw;
+}
+
+input[type=checkbox]#progress:checked ~ .p-view__default::after,
+input[type=checkbox]#synastry:checked ~ .p-view__default::after,
+input[type=checkbox]#errectional:checked ~ .p-view__default::after,
+input[type=checkbox]#nature:checked ~ .p-view__default::after,
+input[type=checkbox]#love:checked ~ .p-view__default::after,
+input[type=checkbox]#sample1:checked ~ .p-view__default::after,
+input[type=checkbox]#sample2:checked ~ .p-view__default::after,
+input[type=checkbox]#sample3:checked ~ .p-view__default::after,
+input[type=checkbox]#natal:checked ~ .p-view__default::after {
+  content: none;
 }
 
 .u-padding__title-small {
-  padding: 0 1.18rem;
+  padding: 0 3.13vw;
 }
 .u-padding__title--xsmall {
   padding: 0 0.87rem;
 }
+.u-padding__text--left {
+  padding-left: 1.33vw;
+}
 
 .u-width__wide {
-  width: 88.33%;
+  width: 88.4vw;
 }
 .u-width__medium {
-  width: 86.67%;
+  width: 86.67vw;
 }
 
+.u-text__align--center {
+  text-align: center;
+}
+
+.u-center__flex--column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.u-center__flex {
+  display: flex;
+  justify-content: center;
+}
+
+.u-margin__top {
+  margin-top: 7.83vw;
+}
+.u-margin__top--medium {
+  margin-top: 8.33vw;
+}
+.u-margin__top--wide {
+  margin-top: 17.02vw;
+}
+.u-margin__bottom {
+  margin-bottom: 27.5vw;
+}
+.u-margin__bottom--wide {
+  margin-bottom: 32.5vw;
+}
 /*# sourceMappingURL=style.css.map */

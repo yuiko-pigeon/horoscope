@@ -1,0 +1,15 @@
+@use "../../foundation/global/index" as g;
+.p-section{
+    &__how{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__child{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    
+}

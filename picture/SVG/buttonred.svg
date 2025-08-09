@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 272.8 52.1">
+  <defs>
+    <style>
+      .cls-1 {
+        mask: url(#mask);
+      }
+
+      .cls-2 {
+        filter: url(#luminosity-invert);
+      }
+
+      .cls-3 {
+        isolation: isolate;
+      }
+
+      .cls-4 {
+        fill: url(#Red_01);
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        fill: url(#_名称未設定グラデーション_533);
+      }
+
+      .cls-7 {
+        mix-blend-mode: overlay;
+        opacity: .75;
+      }
+    </style>
+    <linearGradient id="_名称未設定グラデーション_533" data-name="名称未設定グラデーション 533" x1="136.4" y1="0" x2="136.4" y2="52.1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cb0520"/>
+      <stop offset=".51" stop-color="#8a0210"/>
+      <stop offset="1" stop-color="#d90522"/>
+    </linearGradient>
+    <linearGradient id="Red_01" data-name="Red 01" x1="57.93" y1="104.52" x2="214.87" y2="-52.42" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#550210"/>
+      <stop offset=".14" stop-color="#b20014"/>
+      <stop offset=".31" stop-color="#7b0922"/>
+      <stop offset=".35" stop-color="#620010"/>
+      <stop offset=".45" stop-color="#890017"/>
+      <stop offset=".63" stop-color="#d90522"/>
+      <stop offset=".71" stop-color="#a6061c"/>
+      <stop offset=".79" stop-color="#740717"/>
+      <stop offset=".83" stop-color="#610816"/>
+      <stop offset=".88" stop-color="#550110"/>
+      <stop offset=".92" stop-color="#6b0012"/>
+      <stop offset=".97" stop-color="#53050e"/>
+      <stop offset="1" stop-color="#441a20"/>
+    </linearGradient>
+    <filter id="luminosity-invert" x="-2.08" y="-2.77" width="277" height="57" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feColorMatrix result="cm" values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0"/>
+    </filter>
+    <mask id="mask" x="-2.08" y="-2.77" width="277" height="57" maskUnits="userSpaceOnUse">
+      <g class="cls-2">
+        <image width="277" height="57" transform="translate(-2.08 -2.77)" xlink:href="data:image/png;base64,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"/>
+      </g>
+    </mask>
+  </defs>
+  <g class="cls-3">
+    <g id="_レイヤー_2" data-name="レイヤー 2">
+      <g id="Footer">
+        <g>
+          <g>
+            <path class="cls-6" d="M272.8,29.27c-.07.04-.13.07-.2.12-.83.65-.57,1.61.16,2.13.01,0,.03.01.04.02v15.05c-2.53.94-4.57,2.98-5.51,5.51H5.51c-.94-2.53-2.98-4.57-5.51-5.51v-15.17c.63-.53.82-1.41.04-2.03-.01-.01-.03-.01-.04-.02v-2.24c.28-.36.46-.76.46-.76,0,0-.18-.41-.46-.77v-2.24s.03-.01.04-.02c.78-.61.59-1.49-.04-2.03V5.51C2.53,4.57,4.57,2.53,5.51,0h261.78c.94,2.53,2.98,4.57,5.51,5.51v15.68s-.03.01-.04.02c-.73.52-.99,1.48-.16,2.13.06.05.13.08.2.12v1.96c-.37.39-.62.95-.62.95,0,0,.25.56.62.94v1.96Z"/>
+            <path class="cls-4" d="M264.31,5c.95,1.35,2.13,2.53,3.48,3.48v11.02c-.44.84-.69,1.77-.71,2.73-.02.82.12,1.62.41,2.36l-.81,1.8.8,1.77c-.29.74-.43,1.53-.41,2.35.02.95.27,1.88.71,2.73v10.39c-1.35.95-2.53,2.13-3.48,3.48H8.48c-.95-1.35-2.13-2.53-3.48-3.48v-10.71c.38-.83.57-1.74.55-2.67-.01-.72-.15-1.42-.41-2.08l.81-1.78-.82-1.81c.26-.66.4-1.36.41-2.08.02-.93-.18-1.83-.55-2.67v-11.35c1.35-.95,2.53-2.13,3.48-3.48h255.83M267.29,0H5.51C4.57,2.53,2.53,4.57,0,5.51v15.81c.63.53.82,1.41.04,2.03-.01.01-.03.01-.04.02v2.24c.28.36.46.77.46.77,0,0-.18.4-.46.76v2.24s.03.01.04.02c.78.61.59,1.49-.04,2.03v15.17c2.53.94,4.57,2.98,5.51,5.51h261.78c.94-2.53,2.98-4.57,5.51-5.51v-15.05s-.03-.01-.04-.02c-.73-.52-.99-1.48-.16-2.13.06-.05.13-.08.2-.12v-1.96c-.37-.38-.62-.94-.62-.94,0,0,.25-.56.62-.95v-1.96c-.07-.04-.13-.07-.2-.12-.83-.65-.57-1.61.16-2.13.01,0,.03-.01.04-.02V5.51c-2.53-.94-4.57-2.98-5.51-5.51h0Z"/>
+          </g>
+          <g class="cls-1">
+            <g class="cls-7">
+              <path class="cls-5" d="M272.8,29.27c-.07.04-.13.07-.2.12-.83.65-.57,1.61.16,2.13.01,0,.03.01.04.02v15.05c-2.53.94-4.57,2.98-5.51,5.51H5.51c-.94-2.53-2.98-4.57-5.51-5.51v-15.17c.63-.53.82-1.41.04-2.03-.01-.01-.03-.01-.04-.02v-2.24c.28-.36.46-.76.46-.76,0,0-.18-.41-.46-.77v-2.24s.03-.01.04-.02c.78-.61.59-1.49-.04-2.03V5.51C2.53,4.57,4.57,2.53,5.51,0h261.78c.94,2.53,2.98,4.57,5.51,5.51v15.68s-.03.01-.04.02c-.73.52-.99,1.48-.16,2.13.06.05.13.08.2.12v1.96c-.37.39-.62.95-.62.95,0,0,.25.56.62.94v1.96Z"/>
+              <path class="cls-5" d="M264.31,5c.95,1.35,2.13,2.53,3.48,3.48v11.02c-.44.84-.69,1.77-.71,2.73-.02.82.12,1.62.41,2.36l-.81,1.8.8,1.77c-.29.74-.43,1.53-.41,2.35.02.95.27,1.88.71,2.73v10.39c-1.35.95-2.53,2.13-3.48,3.48H8.48c-.95-1.35-2.13-2.53-3.48-3.48v-10.71c.38-.83.57-1.74.55-2.67-.01-.72-.15-1.42-.41-2.08l.81-1.78-.82-1.81c.26-.66.4-1.36.41-2.08.02-.93-.18-1.83-.55-2.67v-11.35c1.35-.95,2.53-2.13,3.48-3.48h255.83M267.29,0H5.51C4.57,2.53,2.53,4.57,0,5.51v15.81c.63.53.82,1.41.04,2.03-.01.01-.03.01-.04.02v2.24c.28.36.46.77.46.77,0,0-.18.4-.46.76v2.24s.03.01.04.02c.78.61.59,1.49-.04,2.03v15.17c2.53.94,4.57,2.98,5.51,5.51h261.78c.94-2.53,2.98-4.57,5.51-5.51v-15.05s-.03-.01-.04-.02c-.73-.52-.99-1.48-.16-2.13.06-.05.13-.08.2-.12v-1.96c-.37-.38-.62-.94-.62-.94,0,0,.25-.56.62-.95v-1.96c-.07-.04-.13-.07-.2-.12-.83-.65-.57-1.61.16-2.13.01,0,.03-.01.04-.02V5.51c-2.53-.94-4.57-2.98-5.51-5.51h0Z"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

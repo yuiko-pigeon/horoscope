@@ -1,0 +1,46 @@
+@use "../../foundation/global/index" as g;
+
+.c-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 5.33vw auto 14.5vw auto;
+  overflow: hidden;
+  &__row {
+    border: 1px solid g.$color-gold;
+    height: 8.33vw;//50px
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+  &__header {
+    border: 1px solid g.$color-gold;
+    color: g.$color-white;
+    font-family: source-han-serif-jp-variable, sans-serif;
+    font-variation-settings: "wght" 700;
+    font-size: 3.67vw;//22px
+    padding: 0 4vw;
+    text-align: right;
+    width: 37%;
+    vertical-align: top;
+    &:empty {
+      background: transparent;
+    }
+  }
+  &__background--gold {
+    background: g.$color-darkgold;
+  }
+  &__data {
+    border: 1px solid g.$color-gold;
+    color: g.$color-white;
+    font-family: noto-sans-cjk-jp, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 3.5vw;//21px
+    padding: 0 4vw;
+    text-align: left;
+    width: 63%;
+    vertical-align: middle;
+  }
+}
+
+ 

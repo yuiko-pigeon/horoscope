@@ -1,0 +1,11 @@
+.u-center{
+    &__flex--column{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__flex{
+        display: flex;
+        justify-content: center;
+    }
+}

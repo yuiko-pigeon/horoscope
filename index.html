@@ -9,85 +9,455 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.adobe.com/fonts/source-han-serif-japanese-subset-variable?vf-instance=Bold&vf-font-size=100&vf-font=SourceHanSerifJPVF-ExtraLight" rel="stylesheet">
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'ujr0fsw',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
     <link href="https://cdn.jsdelivr.net/npm/destyle.css@4.0.1/destyle.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
 <body>
     <div class="l-wrapper">
-        <img src="" alt="背景画像" class="bg">
         <header class="l-header">
             <h1 class="logo">
-                <img src="./picture/title.webp" alt="鑑定例と記載されたロゴ">
+                <div class="c-image__fv">
+                    <img src="./picture/title.webp" alt="鑑定例と記載されたロゴ">
+                <div>
             </h1>
         </header>
         <main class="l-main">
-            <p class="p-text__main">
+            <p class="c-text__main">
                 自身の才能はどんなものを持っているのか？<br>
                 どういう性格か？自分の人生の目的は？<br>
                 お金持ちになれるか？どんな欠点があるのか？<br>  
                 どういう仕事に向いているのか？<br>
-                結婚する人はどのような人か？<br>
-                <br>
-                <br>
+                結婚する人はどのような人か？
+            </p>
+            <p class="c-text__sub">
                 そんな疑問に答えてくれるのが占星術です。<br>
                 ご自身を知るための参考となる事を願っています。
             </p>
-            <section class="p-section">
+            <section class="p-section__how">
                 <h2 class="p-title u-width__medium">
                     <img src="./picture/svg/upper.svg" alt="上ライン" class="c-title__img--upper">
                     <span class="c-title__text">鑑定方法</span>
                     <img src="./picture/svg/lower.svg" alt="下ライン" class="c-title__img--lower">
                 </h2>
-                <div class="p-title__button--round u-padding__title-small">
-                    <h3 class="c-title__text--small">
-                        プログレス・トランジット（未来予知占星術）
-                    </h3>
-                </div>
-                    <p class="">
+                <section class="p-section__child u-margin__top--medium">
+                    <div class="p-title__button--round u-padding__title-small">
+                        <h3 class="c-title__text--small">
+                            プログレス・トランジット（未来予知占星術）
+                        </h3>
+                    </div>
 
+                    <div class="u-center__flex u-padding__text--left">
+                    <input type="checkbox" id="progress">
+                    <p class="c-text__center u-width__wide p-view__default">
+                        あなたの未来（過去）の起きうる運命や、状況が今、解り<br>ます。<br>
+                        太陽その他の星々の動きで、ものごとが起きるタイミング、つまり何年の何月何日頃に何が起きるのかを知ることができます。
+                        例えば…<br></p>
+                    
+                    <p class="c-text__center u-width__wide p-view__hidden">
+                        <br>
+                        第7室の太陽が巡ってきた場合…<br>
+                        共に与え合う素敵な状況を作れます。<br>
+                        パートナー、家族、仕事仲間、商談相手など、あなたが一緒に協力していこうと思う人々と、協調してものごとを成しうる事ができます。<br>
+                        一人でなく、人と協同して仕事をするのが良い時です。<br>
+                        自分の役割を通し、周囲に貢献している事で、自分の存在が輝きます。<br>
+                        この時期は、他人と付き合わないでいると、あなたが人と一緒に働くことによって得られると同じだけの利益は得られません。<br>
+                        ビジネスにおいてもプライベートにおいても、あなたの役割を決定するために、“協力”が必要とされます。<br>
+                        あなたは自分が受け取っているだけのものを相手にも与えているでしょうか？<br>
+                        どんな分野であれ、仲間に入ってアドバイスを求めたり、専門家に相談したりするのに良い時です。<br>
+                        法律上の争いが起きるかもしれません。もしそうなったら弁護士に相談するのが良い考えです。<br><br>
+                        太陽と月のオポジション180°のアスペクトができた場合…<br>
+                        自分の気持ちと、相手に対する考えや態度が一致しない、偽りの自分でいるならば、人間関係において問題が起こりそうです。<br>
+                        心に余裕がなく、感情が爆発したり、人のせいにしたり、批判したりと、人々から嫌がられる行動をしがちです。<br>
+                        今日は調子が悪いなぁ、とイライラした自分を俯瞰できる冷静な自分でいられるようにし、またリラックスできる時間を作ってみるのはいかがでしょうか？<br>
+                        それをコントロールできれば、運が良い時を超える成功のエネルギーを手に入れられます。<br><br>
+                        太陽と土星のコンジャンクション0°ができた場合…<br>
+                        この時期は、計画的で、組織的な事が上手く回ります。<br>
+                        他人を無理強いして、管理しようとしない限り、うまく行きます。<br>
+                        自分の義務をしっかり行う事で、後になって良い結果を生みます。仕事上の昇進も考えられます。<br>
+                        ただ、この時期は時間がかかることが多く、様々な障害が起こるように見えます。<br>
+                        それは今まで疎かにしていた、流していたことに原因があります。<br>
+                        計画し、実行し、検証する。このループが成功の鍵となります。<br>
+                        もしこのループができていないと、様々なミスや漏れが露わとなり、せっかくの成功を台無しにしてしまうかもしれません。<br>
+                        真剣に、真面目に、集中して（あまり面白くないかもしれませんが）行動する事があなたの人生にプラスになる事間違いありません。<br><br>
+                        太陽とMCのセクスタイル60°ができた場合…<br>
+                        成功を勝ち取れるチャンスです。<br>
+                        将来の計画を立てるのも、またすでに計画済のことを達成するのに良い時です。<br>
+                        自分に自信を持つことができ、周りの状況も安定しています。<br>
+                        上司や家族と上手くやっていける時です。<br>
+                        この時期をあらかじめ解っていると、この時期に成功するよう、仕事も家庭の事も計画を立てられます。<br>
+                        必ず成功する時期を知っている事は、どれだけの価値があるでしょう？<br>
+                        例えば、この時期に独立する事を目標に計画を立てては？<br>
+                        この時期に、家を買う事を計画してみては？<br>
+                        結婚のタイミングをこの時期に合わせても素敵な人生になる可能性大です。<br>
+                        笑顔で、スリリングで、楽しい人生にするには、計画と行動、そしてタイミングが必要なのです。<br><br>
+                        金星とMCのコンジャンクション0°ができた場合…<br>
+                        愛を感じ、幸せを実感できる時期です。<br>
+                        恋は上手くいきます。恋に落ちるに最適な時です。<br>
+                        愛の告白をしたり、結婚したり、友達になったり、パーティーをしたりということには最高の時です。<br>
+                        仕事では、美や娯楽、人間関係に関わる事に幸運があります。<br>
+                        あなたの幸せな心が、親しみやすさ、好意的な雰囲気を作ります。<br>
+                        顧客、依頼人、同僚との良い関係が、営業、取引に有利に働きます。<br>
+                        人付き合いに最適な時期です。すべての人間関係は上手くいきます。<br>
+                        友達、家族、恋人と外へ遊びに行きましょう。忘れられない素敵なひと時を過ごすことができます。<br><br>
+                        これらはほんの一握りの紹介です。<br>
+                        星々と言いましたが、太陽、月、水星、金星、火星、木星、土星、天王星、海王星、（冥王星）が太陽系には存在し、10天体のつながりの意味を調べると【自身の未来のヒミツ】が解ってしまうのです。<br><br>
+                        
+                        ただ、何もしなくても起こる事ではありません。<br>
+                        努力が必要であったり、行動を起こす必要があったり、勇気が必要だったり、継続が必要だったり、我慢が必要だったり、改善が必要だったりと、どんなに良い事が書いてあったとしても、なにもしないで得られるような、幸運は期待しないでください。<br><br>
+                        チャンスの神様には、後ろ髪がないと言われます。<br>
+                        あれがチャンスだったと、あとから気付いて振り返っても、チャンスは掴めません。<br>
+                        【チャンスが来た時に、すぐ行動できる事前の準備が必要です。】<br>
+                        【計画、行動、タイミング】が重要です。<br><br>
+                        いつかは成功すると頑張っていても、いつだか分からない時を努力することはとてもつらいと思います。<br>
+                        でも何年の何月何日頃になるとチャンスが必ずやってくると知っていると、その日を楽しみに頑張れるのではないでしょうか？<br>
+                        余裕をもって計画を立てられるのではないでしょうか？<br>
+                        行動を起こせる勇気と自信をつける準備ができるのではないでしょうか？<br>
+                        また、自分の運気が低迷している時には、イライラしたり、感情的になったりせずに、今は焦らず、時を待とうと心に余裕を持てるのではないでしょうか？<br>
+                        幸せな人生、成功の人生を得るために、自身の未来を知ることが、大きな助けとなると思います。<br>
                     </p>
-                <div class="p-title__button--round">
-                    <h3 class="c-title__text--small">
-                        ネータル（出生図）ホロスコープ
-                    </h3>
-                </div>
-                    <p class="">
-
+                    <label class="p-view__button" for="progress"></label>
+                    </div>
+                </section>
+                <section class="p-section__child u-margin__top--wide">
+                    <div class="p-title__button--round">
+                        <h3 class="c-title__text--small">
+                            ネータル（出生図）ホロスコープ
+                        </h3>
+                    </div>
+                    <div class="u-center__flex u-padding__text--left">
+                    <input type="checkbox" id="natal">
+                    <p class="c-text__center u-width__wide p-view__default">
+                        生まれた日、生まれた時間、生まれた場所。<br>
+                        この３つが揃った時の地球から見た、太陽系の星々の位置<br>
+                        がネータルホロスコープ（出生図）になります。<br>
+                        これは何なのか？<br>
+                        簡単に言ってしまえば、決められた運命があるということ。<br>
                     </p>
-                
-                <div class="p-title__button--round-long u-padding__title-xsmall">
-                    <h3 class="c-title__text--small">
-                        シナストリ―（相性占星術）・コンポジット（合成占星術）
-                    </h3>
-                </div>    
-                <p class="">
+                    <p class="c-text__center u-width__wide p-view__hidden">
+                        <br>
+                        その運命（運勢、性格、特徴、長所、欠点、容姿、特技、克服すべき問題点など）を知ることにより、自身を理解し、人生をより良くしようとする占星術です。<br><br>
 
-                </p>
-                <div class="p-title__button--round">
-                    <h3 class="c-title__text--small">
-                        イレクショナル（成功作成占星術）
-                    </h3>
-                </div>
-                    <p class="u-width__wide"></p>
-                
+                        運命といってもたくさんあるので、例えば…<br>
+                        性格は、明るいか？真面目か？慎重派か？お調子者か？積極的か？<br>
+                        考えるより先に体が動くタイプか？夢見がちか？<br>
+                        ものごとを完全に理解するまで動かない石橋をたたく派か？<br>
+                        人に優しいか？自分に甘いか？うぬぼれやか？<br>
+                        人に厳しいか？意地悪か？無口か？おしゃべりか？などなど<br><br>
+
+                        容姿は、がっちり系か？ほっそり系か？ぽっちゃり系か？<br>
+                        背は高いか？低いか？中位？手の指は長い？爪の形は？<br>
+                        髪は硬い？鼻は？目は？顔の輪郭は？などなど<br><br>
+
+                        特徴は、長所は？欠点は何か？<br>
+                        得意なことは？苦手なことは？克服すべき問題点は何か？<br>
+                        どのようなことが好きになるのか？<br>
+                        どんな人と相性が良いのか？<br>
+                        どのような仕事に興味を抱くのか？<br>
+                        お金持ちになれる？<br>
+                        家庭環境はどのようなところ？両親はどんな人？<br>
+                        友達は？結婚相手はどのような人を選ぶ？<br>
+                        旅行は好き？人生の哲学や宗教にどう関わる？<br>
+                        自分の思い描く成功を達成できる？<br>
+                        自分の内面に向き合う事は得意？などなど<br>
+                        まだまだ言い足りませんが、このようなことが解ります。<br><br>
+
+                        この中で、1番多い質問は、私の人生のパートナーはどんな人？です。<br>
+                        次に、どのような職業が向いているか？<br>
+                        お金持ちになれるか？<br>
+                        成功できるか？<br>
+                        と続きます。<br>
+
+                        まずは、無料鑑定の解説を読んでください。<br>
+                        自分の運命や才能を知ること。<br>
+                        読めば、自分自身が今までより、くっきりと見えるようになります。<br>
+
+                        あまりにも情報が多い、矛盾する事がある、反対の事が両方書いてあってよく判らない。<br>
+                        その時は有料の鑑定をするのも一つの手かもしれません。<br>
+                        金額以上の価値があると確信しています。<br>
+                    </p>
+                    <label class="p-view__button" for="natal"></label>
+                    </div>
+                </section>
+                <section class="p-section__child u-margin__top--wide">
+                    <div class="p-title__button--round-long u-padding__title-xsmall">
+                        <h3 class="c-title__text--small">
+                            シナストリー（相性占星術）・コンポジット（合成占星術）
+                        </h3>
+                    </div>
+                    <div class="u-center__flex u-padding__text--left">
+                    <input type="checkbox" id="synastry">
+                    <p class="c-text__center u-width__wide p-view__default">
+                        相手との相性や、共に行う方向性（考え方や行動）を判断します。<br>
+                        人間関係は、もっとも難題な一つですが、それぞれにおい<br>て人間関係が簡単にでも解れば、どれだけの助けとなるでしょうか。<br>
+                    </p>
+                    <p class="c-text__center u-width__wide p-view__hidden">
+                        相性（シナストリー）といっても単純に馬が合う（気が合う）程度のものでは、相性を語れません。<br>
+                        【性格の相性】【人生の生き方の相性】【相手に求める愛情の相性】【お金に対する考え方の相性】【日常会話や趣味の相性】【家庭に求める相性】【子育ての相性】【仕事や相手に奉仕する責任感の相性】【宗教や結婚のあり方、死生観の相性】【旅行や、哲学の相性】【仕事や人生の成功に対する考え方の相性】【友人関係の相性】【秘密を許容する相性】などなど<br>
+                        細かく見ていけば、もっと知ることができます。<br>
+
+                        相手との相性が解れば、相手に対し、この先のどのような行動、思考が必要なのかはっきりします。<br>
+                        また、自分が相手から受ける影響、相手に与える影響は何か、そこからどのような愛情や協力、幻滅や争いが起きるのかが解ります。<br>
+                        相手との相性が判れば、お互いが協力し合えるところ、争いが起きるところ、妥協が必要なところなど、お互いが快適に過ごすための有用な情報が解ります。<br><br>
+
+
+                        コンポジット（合成占星術）は、お互いのネータルホロスコープ（出生図）を合体させます。<br>
+
+                        そこでできた新たなホロスコープは、二人の（もしくは数人の）意思と思惑と行動と方向性を見る事ができます。<br>
+
+                        例えば、<br>
+                        とても良い水星の状態は、お互いの親密なコミュニケーションを表し、話し合いが密で、お互いを信頼し合える関係。<br>
+                        太陽と月の良い状態は、お互いの考えや、やりたいことが理解しやすく、互いに相手をフォローでき、思いやれる。<br>
+                        太陽と火星の緊張状態は、お互いに前向きで、チャレンジ精神にあふれているが、感情的になったり、言葉の選択を間違えると、争いが起きやすい。などなど。<br><br>
+
+                        他にも、合成した二人の未来予知（将来）もこのホロスコープから見る事ができます。<br>
+                        3年後、子供を授かる運気になっている。<br>
+                        5年後、お互いがイライラする状況になる可能性が大きい。<br>
+                        6年後、男性が体調不良になり、収入に問題が起こる。<br>
+                        同じ時期にお互いの独立心が強く、別々の行動になりやすい。<br>
+                        7年後、引っ越しと土地購入の運気が上がっている。<br>
+                        10年後、幸運期に入り、二人それぞれが思いやる事ができ、家庭での幸運なことが起きる（例：子供を授かる、出世する、子育てが上手くいく、収入が増える、素敵な家を購入する、楽しい旅行ができる）
+                        などなど。<br><br>
+
+                        シナストリー、コンポジットは、お互いの姿がはっきり見えるようになり、協力できるところ、妥協点、改善点を簡単に見つけることができます。<br>
+                    </p>
+                    <label class="p-view__button" for="synastry"></label>
+                    </div>
+                </section>
+                <section class="p-section__child u-margin__top--wide u-margin__bottom">
+                    <div class="p-title__button--round">
+                        <h3 class="c-title__text--small">
+                            イレクショナル（成功作成占星術）
+                        </h3>
+                    </div>
+                    <div class="u-center__flex u-padding__text--left">
+                        <input type="checkbox" id="errectional">
+                        <p class="c-text__center u-width__wide p-view__default">
+                            当占星術サイトがメインにしている占星術技法です。<br>
+                            生まれ持った運勢（ネータルホロスコープ）は、自身の運<br>勢を知り、良いところを伸ばし、悪いところを改善し、行動に移し、活用すれば、強くできますし、良い人生にできます。<br>
+                        </p>
+                        <p class="c-text__center u-width__wide p-view__hidden">
+                            ただ、自分で選んだわけではなく、自身の運命を受け入れて、成長していくもので、自身の望む運勢ではないかもしれません。<br>
+                            では最初から運の強い、運の良い運勢だったらどうでしょう？<br>
+                            ものごとは上手くいきやすく、互いに思い合え、協調的で、目的を達成するのが容易になります。<br>
+                            成功するための【ヒミツの占星術がイレクショナル占星術】です。<br>
+                            目的（結婚や妊娠、会社経営など）達成に、最強の運勢の日時を選んで、その日をネータルホロスコープ（出生図）にし、強運の出生図にしてしまう占星術です。<br><br>
+
+                            目的は、
+                            【結婚】【妊娠】【お店開業】【独立】【引っ越し】【体外受精】【車などの高額な買い物】【手術】など人生に大きな節目となる日を強運最適にすることです。<br>
+                            そうすることで、その後の人生や結果が素敵なもの、望んだものになる可能性がとても大きくなるのです。<br><br>
+
+                            【結婚】で言えば、相性が良いと言っても、お互いの個性があり、理解したり、妥協したり、もしくは我慢したりすることもあるでしょう。<br>
+                            イレクショナル占星術で鑑定した日時で結婚すれば、お互い理解し合えるパートナーとなり、そばにいると元気になり、笑い合える。<br>
+                            助けが必要な時に、相手がタイミング良く、助けてくれる。<br>
+                            幸せを実感する充実した毎日を実現できます。<br><br>
+
+                            【妊娠】【体外受精】で言えば、不妊症であっても、高齢であっても、体調が優れなくても、元気な子供を授かり、出産できる可能性を大幅にアップしてくれます。<br><br>
+
+                            【お店開業】【独立】では、大きなトラブルもなく、良い顧客に恵まれ、商売繁盛・事業繁栄の強運をつける事ができます。<br><br>
+
+                            【引っ越し】では、引っ越すことにより、強運を引き寄せ、健康になり、やる気が増し、閃きが冴え、体調も物事も、良い方に改善していきます。<br><br>
+
+                            【車などの高額な買い物】では、例えば車。ディーラーとの話し合いがスムーズで、上手くいけば割引できたり、相性の良い、故障しない車が手に入ります。<br><br>
+
+                            【手術】では、これはドクターや病院の都合もあるので、日時を指定することは難しいかもしれませんが、自身の手術をしてはいけない日を避ける事ができ、やり直し、失敗を回避できます。<br><br>
+
+                            何もしなくても流れに乗っているうちに上手くいっている。<br>
+                            努力をすればするほど状況が良くなり、どんどん成功する。<br>
+                            お互いのタイミングがいつも合い、気持ちが通じ合える。
+                            などなど<br><br>
+
+                            好循環を体感できる結果を手に入れられると思います。<br>
+                        </p>
+                        <label class="p-view__button" for="errectional"></label>
+                    </div>
+                </section>
             </section>
             <section class="p-section">
-                <h2 class="p-title u-width__medium">
-                    <img src="./picture/svg/upper.svg" alt="上ライン" class="c-title__img--upper">
-                    <span class="c-title__text ">鑑定例</span>
-                    <img src="./picture/svg/lower.svg" alt="下ライン" class="c-title__img--lower">
-                </h2>
-                <table>
-                    <tr>誕生者</tr>
-                    <tb>kkk</tb>
-                    <tr>
+                <div class="u-center__flex--column">
+                    <h2 class="p-title u-width__medium">
+                        <img src="./picture/svg/upper.svg" alt="上ライン" class="c-title__img--upper">
+                        <span class="c-title__text ">鑑定例</span>
+                        <img src="./picture/svg/lower.svg" alt="下ライン" class="c-title__img--lower">
+                    </h2>
+                </div>
+                <div class="p-table">
+                    <table class="c-table">
+                        <tbody>
+                            <!-- 鑑定者誕生日セクション -->
+                            <tr class="c-table__row">
+                                <th class="c-table__header c-table__background--gold u-text__align--center">鑑定者誕生日</th>
+                                <td class="c-table__data c-table__background--gold">1967/01/28 06:00:00</td>
+                            </tr>
+                            <tr class="c-table__row">
+                                <th rowspan="2" class="c-table__header">生誕地</th>
+                                <td class="c-table__data">熊本県 熊本市</td>
+                            </tr>
+                            <tr class="c-table__row">
+                                <td class="c-table__data">130.744 32.78634</td>
+                            </tr>
+                            
+                            <!-- お相手誕生日セクション -->
+                            <tr class="c-table__row">
+                                <th class="c-table__header c-table__background--gold u-text__align--center">お相手誕生日</th>
+                                <td class="c-table__data c-table__background--gold">1980/10/20 10:30:00</td>
+                            </tr>
+                            <tr class="c-table__row">
+                                <th rowspan="2" class="c-table__header">生誕地</th>
+                                <td class="c-table__data">大分県 別府市</td>
+                            </tr>
+                            <tr class="c-table__row">
+                                <td class="c-table__data">131.61492 3323471</td>
+                            </tr>
+                            
+                            <!-- 経過データセクション -->
+                            <tr class="c-table__row">
+                                <th rowspan="2" class="c-table__header">経過データ</th>
+                                <td class="c-table__data">1967年 1月 28日</td>
+                            </tr>
+                            <tr class="c-table__row">
+                                <td class="c-table__data">06時 00分</td>
+                            </tr>
+                            <tr class="c-table__row">
+                                <th rowspan="2" class="c-table__header">経過地</th>
+                                <td class="c-table__data">熊本県 熊本市</td>
+                            </tr>
+                            <tr class="c-table__row">
+                                <td class="c-table__data">130.744 32.78634</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <section class="p-section__child">
+                    <div class="u-center__flex--column">
+                        <h3 class=" u-width__medium">
+                            <img src="./picture/svg/line.svg" alt="ライン" class="c-title__img--line">
+                            <span class="c-title__text--medium">あなたの生まれ持った性質</span>
+                            <img src="./picture/svg/line.svg" alt="ライン" class="c-title__img--line">
+                        </h3>
+                    </div>
+                    <input type="checkbox" id="nature">
+                    <p class="c-text__center u-width__wide u-padding__text--left p-view__default">
+                        これらのアスペクトのいずれも、成功を一時的なものにし<br>
+                        たり、非常な努力と意志の代価としてのみ得られるものに<br>
+                        する。人生の中で先に進むことを必要とし、いかなる代価を払っても自己を主張するだろう。<br>
+                        しかし、妥協することを学ばなければならない。また、人<br></p>
+                    <p class="c-text__center u-width__wide p-view__hidden">
+                        <br>
+                    </p>
+                    <label class="p-view__button" for="nature"></label>
+                </section>
+                <section class="p-section__child u-margin__top--wide">
+                    <div class="u-center__flex--column">
+                        <h3 class=" u-width__medium">
+                            <img src="./picture/svg/line.svg" alt="ライン" class="c-title__img--line">
+                            <span class="c-title__text--medium">恋愛・結婚について</span>
+                            <img src="./picture/svg/line.svg" alt="ライン" class="c-title__img--line">
+                        </h3>
+                    </div>
+                    <input type="checkbox" id="love">
+                    <p class="c-text__center u-width__wide u-padding__text--left p-view__default">
+                        愛情やまたそれに対する不注意などによる悲しみをしばしば示している。<br>
+                        両親が自分の結婚相手を拒否するとか、家庭の不和を経験するかもしれない。気分に流されやすく、わがままで、だ<br>
+                        まされやすい。劣等感の補償として、しばしば注目の的に
+                    <p class="c-text__center u-width__wide p-view__hidden">
+                        <br>
+                    </p>
+                    <label class="p-view__button" for="love"></label>
+                </section>
+                <section class="p-section__child u-margin__top--wide">
+                    <div class="u-center__flex--column">
+                        <h3 class=" u-width__medium">
+                            <img src="./picture/svg/line.svg" alt="ライン" class="c-title__img--line">
+                            <span class="c-title__text--medium">〇〇〇〇について</span>
+                            <img src="./picture/svg/line.svg" alt="ライン" class="c-title__img--line">
+                        </h3>
+                    </div>
+                    <input type="checkbox" id="sample1">
+                    <p class="c-text__center u-width__wide u-padding__text--left p-view__default">
+                        野心的で、しっかり者である。物事を解決する力があり、<br>
+                        性急。怠け者ではない。<br>
+                        感情は激しく、自分のエネルギーを創造的な仕事に注ぐことができる。これらのアスペクトは強い肉体を作ることに<br>
+                        よって、虚弱な健康を補う。またミュータブルサインによ
+                    <p class="c-text__center u-width__wide p-view__hidden">
+                        <br>
+                    </p>
+                    <label class="p-view__button" for="sample1"></label>
+                </section>
+                <section class="p-section__child u-margin__top--wide">
+                    <div class="u-center__flex--column">
+                        <h3 class=" u-width__medium">
+                            <img src="./picture/svg/line.svg" alt="ライン" class="c-title__img--line">
+                            <span class="c-title__text--medium">〇〇〇〇について</span>
+                            <img src="./picture/svg/line.svg" alt="ライン" class="c-title__img--line">
+                        </h3>
+                    </div>
+                    <input type="checkbox" id="sample2">
+                    <p class="c-text__center u-width__wide u-padding__text--left p-view__default">
+                        本当に相手を心配していることをしっかりと相手に示す方法について考えないと、何を行っても罪悪感を抱き、うま<br>
+                        くいかないだろう。<br>
+                        働き者で献身的であるが、新しいことを行う場合には用心すること。また自己憐憫の傾向がある。まじめな献身によ
+                    <p class="c-text__center u-width__wide p-view__hidden">
+                        <br>
+                    </p>
+                    <label class="p-view__button" for="sample2"></label>
+                </section>
+                <section class="p-section__child u-margin__top--wide u-margin__bottom--wide">
+                    <div class="u-center__flex--column">
+                        <h3 class=" u-width__medium">
+                            <img src="./picture/svg/line.svg" alt="ライン" class="c-title__img--line">
+                            <span class="c-title__text--medium">〇〇〇〇について</span>
+                            <img src="./picture/svg/line.svg" alt="ライン" class="c-title__img--line">
+                        </h3>
+                    </div>
+                    <input type="checkbox" id="sample3">
+                    <p class="c-text__center u-width__wide u-padding__text--left p-view__default">
+                        自己欺瞞から現実を混乱させるきらいがあるので、やっかいな感情のもつれに巻き込まれやすい。<br>
+                        このアスペクトは飲酒や薬物、空想などによって、現実逃避する必要を示している。スクエアのアスペクトは上手に扱わないと、健康問題が生じてくるかもしれない。
+                    <p class="c-text__center u-width__wide p-view__hidden">
+                        <br>
+                    </p>
+                    <label class="p-view__button" for="sample3"></label>
+                </section>
             </section>
         </main>
-        <footer></footer>
+        <footer>
+            <div class="p-button">
+                <li>
+                    <div class="p-button__registor">
+                        <img src="./picture/svg/buttonflame.svg" alt="ボタンのゴールドの縁" class="c-button__img--flame">
+                        <!-- <img src="./picture/svg/buttonred.svg" alt="ボタンの赤色" class="c-button__img--red">
+                        <img src="./picture/svg/buttonlight.svg" alt="ボタンの光" class="c-button__img--light"> -->
+                        <p class="c-button__text"><a href="" class="c-button__link">会員登録する</a></p>
+                    </div>
+                </li>
+                <li>
+                    <p class="c-footer__text">既に会員の方は下のボタンからログインしてください</p>
+                </li>
+                <li>
+                    <div class="p-button__login">
+                        <img src="./picture/svg/buttonflame.svg" alt="ボタンのゴールドの縁" class="c-button__img--flame2">
+                        <!-- <img src="./picture/svg/buttonyellow.svg" alt="ボタンの黄色" class="c-button__img--yellow">
+                        <img src="./picture/svg/buttonlight.svg" alt="ボタンの光" class="c-button__img--light"> -->
+                        <p class="c-button__text"><a href="" class="c-button__link">マイページにログイン</a></p>
+                    </div>
+                </li>
+
+            </ul>
+            </div>
+        </footer>
     </div>
 
-    
+    <script src="./js/main.js"></script>
 </body>
 </html>

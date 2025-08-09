@@ -1,0 +1,19 @@
+@use "../../foundation/global/index" as g;
+
+.u-margin{
+    &__top{
+        margin-top: 7.83vw;
+    }
+    &__top--medium{
+        margin-top: 8.33vw;
+    }
+    &__top--wide{
+        margin-top: 17.02vw;
+    }
+    &__bottom{
+        margin-bottom: 27.5vw;
+    }
+    &__bottom--wide{
+        margin-bottom: 32.5vw;
+    }
+}

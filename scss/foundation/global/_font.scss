@@ -1,0 +1,20 @@
+//fontSize
+$Lbold: 300;/*light*/
+$Mbold: 400;/*Medium*/
+$bold: 700;/*Bold*/
+$Hbold: 900;/*Heavy*/
+
+@font-face {
+    font-family: "noto-sans-cjk-jp"; /* 任意のフォント名 */
+    src: url("../../../font/NotoSansCJKjp-VF.otf") format("truetype"); /* フォントファイルのパス */
+  }
+@font-face {
+    font-family: "noto-serif-cjk-jp"; /* 任意のフォント名 */
+    src: url("../../../font/NotoSerifCJKJP-VF.otf") format("truetype"); /* フォントファイルのパス */
+  }
+//font
+$fontNSansCJK:"noto-sans-cjk-jp", Noto Sans JP, sans-serif; 
+$fontNSerif:"Noto Serif JP", serif;//GoogleFonts
+$fontNSerifCJK:"noto-serif-cjk-jp", Noto Serif JP,serif; 
+$fontHanSerif:"source-han-serif-jp-variable", sans-serif; //AdobeFonts
+//$fontZen:"Noto Sans JP", MyYuGothicM, YuGothic, -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", Meiryo, Verdana, arial, helvetica, sans-serif; 

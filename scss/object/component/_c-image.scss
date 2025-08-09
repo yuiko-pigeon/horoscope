@@ -1,0 +1,9 @@
+.c-image{
+    &__fv{
+        width: 100vw;
+        margin: 0 auto;
+        >img{
+            width: 100%;
+        }
+    }
+}

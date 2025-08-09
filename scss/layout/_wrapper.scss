@@ -1,4 +1,9 @@
+@use "../foundation/global/index" as g;
+
 .l-wrapper {
-  grid-template-rows: 1fr, 1fr, 274px;
+  display: grid;
+  grid-template-rows: auto 1fr 274px;
   background: #000;
+  justify-items: center;
+  color: g.$color-white;
 }

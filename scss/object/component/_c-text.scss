@@ -1,0 +1,34 @@
+@use "../../foundation/global/index" as g;
+
+.c-text{
+    &__main{
+        color:g.$color-textGold;
+        font-size: 3.33vw;
+        font-family: g.$fontNSansCJK;
+        font-weight: 100;
+        line-height: 5.83vw;//35px
+        text-align: center;
+        display: block;
+        margin-top: 9.33vw;
+        margin-bottom: 6.66vw;
+    }
+    &__sub{
+        color:g.$color-textGold;
+        font-size: 3.67vw;
+        font-family: g.$fontHanSerif;
+        line-height: 6.4vw;//38.4px
+        letter-spacing: 0.266vw;//1.6px
+        display: block;
+        text-align: center;
+        margin-bottom: 10.83vw;
+    }
+    &__center{
+        display: block;
+        color: g.$color-white;
+        font-family: g.$fontNSansCJK;
+        font-weight: 100;
+        font-size: 3.28vw;
+        line-height: 5.33vw;
+        height: auto;
+    }
+}

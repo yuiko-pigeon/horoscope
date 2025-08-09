@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/*light*/
+/*Medium*/
+/*Bold*/
+/*Heavy*/
+@font-face {
+  font-family: "noto-sans-cjk-jp"; /* 任意のフォント名 */
+  src: url("../../../font/NotoSansCJKjp-VF.otf") format("truetype"); /* フォントファイルのパス */
+}
+@font-face {
+  font-family: "noto-serif-cjk-jp"; /* 任意のフォント名 */
+  src: url("../../../font/NotoSerifCJKJP-VF.otf") format("truetype"); /* フォントファイルのパス */
+}
+.u-margin__top {
+  margin-top: 7.83vw;
+}
+.u-margin__top--medium {
+  margin-top: 8.33vw;
+}
+.u-margin__top--wide {
+  margin-top: 17.02vw;
+}
+/*# sourceMappingURL=u-margin.css.map */
